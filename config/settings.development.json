@@ -1,11 +1,42 @@
 {
-  "_id": "appdb.chenkendrick",
-  "user": "chenkendrick",
-  "db": "appdb",
-  "roles": [
-    {
-      "role": "dbOwner",
-      "db": "appdb"
-    }
-  ]
+
+ "galaxy.meteor.com": {
+
+   "env": {
+
+     "MONGO_URL": "mongodb://iamauser:thisismypasswrd@ds637891.mlab.com:19452/thisismyapp"
+
+   }
+
+ },
+
+ "cas": {
+
+   "baseUrl": "https://cas-test.its.hawaii.edu/cas/",
+
+   "autoClose": true
+
+ },
+
+ "public": {
+
+   "cas": {
+
+     "loginUrl": "https://cas-test.its.hawaii.edu/cas/login",
+
+     "serviceParam": "service",
+
+     "popupWidth": 810,
+
+     "popupHeight": 610
+
+   }
+
+ },
+
+ "allowed_users": [
+
+   "azad313"
+ ]
+
 }
