@@ -1,0 +1,11 @@
+{
+  "_id": "appdb.chenkendrick",
+  "user": "chenkendrick",
+  "db": "appdb",
+  "roles": [
+    {
+      "role": "dbOwner",
+      "db": "appdb"
+    }
+  ]
+}
