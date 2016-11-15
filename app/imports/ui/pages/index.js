@@ -11,3 +11,6 @@ import './list-stuff-page.js';
 
 import './user-page.html';
 import './user-page.js';
+
+import './browse-page.html';
+import './browse-page.js';
