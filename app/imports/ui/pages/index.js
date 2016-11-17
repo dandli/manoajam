@@ -14,4 +14,4 @@ import './user-page.html';
 import './user-page.js';
 
 import './browse-page.html';
-import './browse-page/js';
+import './browse-page.js';
