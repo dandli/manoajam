@@ -43,6 +43,13 @@ FlowRouter.route('/browse/:_id', {
   },
 });
 
+FlowRouter.route('/homepage/:_id', {
+  name: 'Home_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Home_Page' });
+  },
+});
+
 
 FlowRouter.notFound = {
   action() {

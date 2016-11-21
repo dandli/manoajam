@@ -15,3 +15,8 @@ import './user-page.js';
 
 import './browse-page.html';
 import './browse-page.js';
+
+import './user-home-page.html';
+import './user-home-page.js';
+
+
