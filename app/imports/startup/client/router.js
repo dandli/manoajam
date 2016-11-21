@@ -50,6 +50,13 @@ FlowRouter.route('/homepage/:_id', {
   },
 });
 
+FlowRouter.route('/schedule/:_id', {
+  name: 'Schedule_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Schedule_Page' });
+  },
+});
+
 
 FlowRouter.notFound = {
   action() {

@@ -19,4 +19,5 @@ import './browse-page.js';
 import './user-home-page.html';
 import './user-home-page.js';
 
-
+import './schedule-jam-sesh.html';
+import './schedule-jam-sesh.js';

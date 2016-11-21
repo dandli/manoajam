@@ -1,0 +1,84 @@
+<template name="Schedule_Page">
+  <div class="ui container">
+    <div class="ui borderless segment">
+      <h1>Schedule a Campus Jam!</h1>
+      <div class="ui divider"></div>
+      <form class="ui form">
+        <div class="ui grid">
+          <div class="eight wide column">
+            <div class="field">
+              <label>Group Name</label>
+              <input type="text" name="group-name" placeholder="Enter Group Name...">
+            </div>
+          </div>
+          <div class="eight wide column">
+            <div class="field">
+              <label>Add Member</label>
+              <input type="text" name="member-name" placeholder="Last Name">
+              <div class="ui button">Add Member</div>
+            </div>
+          </div>
+          <div class="sixteen wide column">
+            <div class="field">
+              <label>Songs</label>
+              <input type="text" name="songs" placeholder="What Will You Play?">
+            </div>
+          </div>
+          <div class="three column row">
+            <div class="column">
+              <div class="field">
+                <label>Month</label>
+                <div class="ui fluid search selection dropdown">
+                  <input type="hidden" name="month">
+                  <i class="dropdown icon"></i>
+                  <div class="default text">Select Month</div>
+                  <div class="menu">
+                    <div class="item"><i class="January"></i>January</div>
+                    <div class="item" data-value="02"><i class="February"></i>February</div>
+                    <div class="item" data-value="03"><i class="March"></i>March</div>
+                    <div class="item" data-value="04"><i class="April"></i>April</div>
+                    <div class="item" data-value="05"><i class="May"></i>May</div>
+                    <div class="item" data-value="06"><i class="June"></i>June</div>
+                    <div class="item" data-value="07"><i class="July"></i>July</div>
+                    <div class="item" data-value="08"><i class="August"></i>August</div>
+                    <div class="item" data-value="09"><i class="September"></i>September</div>
+                    <div class="item" data-value="10"><i class="October"></i>October</div>
+                    <div class="item" data-value="11"><i class="November"></i>November</div>
+                    <div class="item" data-value="12"><i class="December"></i>December</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+                <label>Day</label>
+                <div class="ui fluid search selection dropdown">
+                  <input type="hidden" name="day">
+                  <i class="dropdown icon"></i>
+                  <div class="default text">Select Day</div>
+                  <div class="menu">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="field">
+                <label>Starting Time</label>
+                <div class="ui fluid search selection dropdown">
+                  <input type="hidden" name="day">
+                  <i class="dropdown icon"></i>
+                  <div class="default text">Select Time</div>
+                  <div class="menu">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="ui button" style="margin-top: 20px">Create Your Jam Session</div>
+    </div>
+  </div>
+</template>
