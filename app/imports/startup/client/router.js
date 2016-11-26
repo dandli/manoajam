@@ -36,6 +36,27 @@ FlowRouter.route('/userpage/:_id', {
   },
 });
 
+FlowRouter.route('/browse/:_id', {
+  name: 'Browse_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Browse_Page' });
+  },
+});
+
+FlowRouter.route('/homepage/:_id', {
+  name: 'Home_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Home_Page' });
+  },
+});
+
+FlowRouter.route('/schedule/:_id', {
+  name: 'Schedule_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Schedule_Page' });
+  },
+});
+
 
 FlowRouter.notFound = {
   action() {

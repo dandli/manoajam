@@ -1,7 +1,0 @@
-{
-  "galaxy.meteor.com": {
-    "env": {
-      "MONGO_URL": "mongodb://chenkendrick:120296090300a@ds147797.mlab.com:47797/appdb"
-    }
-  }
-}
