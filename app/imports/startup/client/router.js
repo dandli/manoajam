@@ -29,34 +29,40 @@ FlowRouter.route('/stuff/:_id', {
   },
 });
 
-FlowRouter.route('/userpage/:_id', {
+FlowRouter.route('/userpage/', {
   name: 'User_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'User_Page' });
   },
 });
 
-FlowRouter.route('/browse/:_id', {
+FlowRouter.route('/browse/', {
   name: 'Browse_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Browse_Page' });
   },
 });
 
-FlowRouter.route('/homepage/:_id', {
-  name: 'Home_Page',
+FlowRouter.route('/homepage/', {
+  name: 'User_Home_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'Home_Page' });
+    BlazeLayout.render('App_Body', { main: 'User_Home_Page' });
   },
 });
 
-FlowRouter.route('/schedule/:_id', {
+FlowRouter.route('/schedule/', {
   name: 'Schedule_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Schedule_Page' });
   },
 });
 
+FlowRouter.route('/editpage/', {
+  name: 'Edit_User_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Edit_User_Page' });
+  },
+});
 
 FlowRouter.notFound = {
   action() {
