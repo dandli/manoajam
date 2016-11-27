@@ -21,3 +21,6 @@ import './user-home-page.js';
 
 import './schedule-jam-sesh.html';
 import './schedule-jam-sesh.js';
+
+import './edit-user-home-page.html';
+import './edit-user-home-page.js';
