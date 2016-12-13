@@ -7,6 +7,9 @@
     <a class="{{ isActiveRoute 'User_Page'}} item" href="{{ pathFor 'User_Page' }}">Profile</a>
     <a class="{{ isActiveRoute 'Browse_Page'}} item" href="{{ pathFor 'Browse_Page' }}">Browse</a>
     <a class="{{ isActiveRoute 'Schedule_Page'}} item" href="{{ pathFor 'Schedule_Page' }}">Create Session</a>
+    {{else}}
+    <a href="#" class="item">{{> Cas_Login }}</a>
+
     {{/If_Logged_In}}
   </div>
 </template>
