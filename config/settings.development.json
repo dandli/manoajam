@@ -5,7 +5,7 @@
    "env": {
 
      "MONGO_URL": "mongodb://iamauser:thisismypasswrd@ds637891.mlab.com:19452/thisismyapp"
-
+     
    }
 
  },
@@ -44,6 +44,7 @@
    "johnson",
    "meriams",
    "grantoc"
+
  ]
 
 }

@@ -1,5 +1,6 @@
 <template name="User_Page">
   <div style="padding-top: 50px" class="ui left container">
+
     <div class="ui grid">
       <div class="ui four wide column">
         <div class="ui card">
@@ -61,22 +62,27 @@
 
             <div class="ui segment">
               <h4 class="ui center aligned header">User's Upcoming Sessions</h4>
-              <table class="ui celled table">
+              <table style="margin-top: 20px" class="ui celled table">
                 <thead>
                 <tr>
                   <th>Group Name</th>
                   <th>Members</th>
+                  <th>Songs</th>
                   <th>Email</th>
                   <th>Scheduled Time and Date</th>
                 </tr>
                 </thead>
+
                 <tbody>
+                {{#each schedule in scheduleList}}
                 <tr>
-                  <td>ManoaJam</td>
-                  <td>Chen</td>
-                  <td>chenkk@hawaii.edu</td>
-                  <td>January 01, 5:00 P.M.</td>
+                  <td>{{schedule.groupname}}</td>
+                  <td>{{schedule.members}}</td>
+                  <td>{{schedule.songs}}</td>
+                  <td>{{schedule.email}}</td>
+                  <td>{{schedule.date}}</td>
                 </tr>
+                {{/each}}
                 </tbody>
               </table>
             </div>
