@@ -8,8 +8,8 @@
     <a class="{{ isActiveRoute 'Browse_Page'}} item" href="{{ pathFor 'Browse_Page' }}">Browse</a>
     <a class="{{ isActiveRoute 'Schedule_Page'}} item" href="{{ pathFor 'Schedule_Page' }}">Create Session</a>
     {{else}}
+    <a class="{{ isActiveRoute 'Home_Page'}} item" href="{{ pathFor 'Home_Page' }}">Home</a>
     <a href="#" class="item">{{> Cas_Login }}</a>
-
     {{/If_Logged_In}}
   </div>
 </template>

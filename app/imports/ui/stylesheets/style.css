@@ -18,3 +18,7 @@ h2{
   font-size: 2rem;
 
 }
+
+.ui.container.blurb {
+  padding-top: 20px;
+}
