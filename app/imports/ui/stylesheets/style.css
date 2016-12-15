@@ -1,3 +1,24 @@
 body {
   padding-top: 61px;  /* Move body of page below navbar. */
 }
+
+.ui.vertical.masthead.center.aligned.segment {
+  padding-top: 61px;
+  background-image: url(/images/landpage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.ui.inverted.header{
+  font-size: 5rem;
+}
+
+h2{
+  font-size: 2rem;
+
+}
+
+.ui.container.blurb {
+  padding-top: 20px;
+}
