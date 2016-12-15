@@ -1,23 +1,50 @@
 {
-  "galaxy.meteor.com": {
-    "env": {
-      "MONGO_URL": "mongodb://chenkendrick:120296090300a@ds147797.mlab.com:47797/appdb"
-    }
-  },
-  "cas": {
-    "baseUrl": "https://cas-test.its.hawaii.edu/cas/",
-    "autoClose": true
-  },
-  "public": {
-    "cas": {
-      "loginUrl": "https://cas-test.its.hawaii.edu/cas/login",
-      "serviceParam": "service",
-      "popupWidth": 810,
-      "popupHeight": 610
-    }
-  },
-  "allowed_users": [
-    "azad313",
-    "chenkk"
-  ]
+
+ "galaxy.meteor.com": {
+
+   "env": {
+
+     "MONGO_URL": "mongodb://chenkendrick:120296090300a@ds147797.mlab.com:47797/appdb"
+     
+   }
+
+ },
+
+ "cas": {
+
+   "baseUrl": "https://cas-test.its.hawaii.edu/cas/",
+
+   "autoClose": true
+
+ },
+
+ "public": {
+
+   "cas": {
+
+     "loginUrl": "https://cas-test.its.hawaii.edu/cas/login",
+
+     "serviceParam": "service",
+
+     "popupWidth": 810,
+
+     "popupHeight": 610
+
+   }
+
+ },
+
+ "allowed_users": [
+
+   "azad313",
+   "chenkk",
+   "jimmyjc",
+   "davislau",
+   "dkim22",
+   "johnson",
+   "meriams",
+   "grantoc"
+
+ ]
+
 }
