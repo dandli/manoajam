@@ -15,5 +15,5 @@ Template.If_Logged_In.helpers({
    */
   canShow: function canShow() {
     return !!Meteor.user();
-  },
+  }
 });
